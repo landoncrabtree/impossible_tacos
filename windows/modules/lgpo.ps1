@@ -1,9 +1,8 @@
-# Copy .\assets\STIG_GPO_OCT_2023\Chrome\ to .\assets\STIG_GPO\Chrome\
 Move-Item -Path .\assets\STIG_GPO_OCT_2023\Chrome -Destination .\assets\STIG_GPO\ -Force
 Move-Item -Path .\assets\STIG_GPO_OCT_2023\Edge -Destination .\assets\STIG_GPO\ -Force
 Move-Item -Path .\assets\STIG_GPO_OCT_2023\IE -Destination .\assets\STIG_GPO\ -Force
 Move-Item -Path .\assets\STIG_GPO_OCT_2023\Defender_AV -Destination .\assets\STIG_GPO\ -Force
-Move-Item -Path .\assets\STIG_GPO_OCT_2023\Defender_Firewall -Destination .\assets\STIG_GPO\ -Force
+#Move-Item -Path .\assets\STIG_GPO_OCT_2023\Defender_Firewall -Destination .\assets\STIG_GPO\ -Force
 Move-Item -Path .\assets\STIG_GPO_OCT_2023\Firefox -Destination .\assets\STIG_GPO\ -Force
 
 # Determine Windows version
